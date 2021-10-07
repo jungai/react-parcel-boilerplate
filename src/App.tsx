@@ -1,9 +1,10 @@
 import React from 'react';
+import './style/tailwind.css';
 
 export const App = (): React.ReactElement => {
 	return (
-		<div>
-			<h1>Hello Parcel - React (ts)</h1>
+		<div className="grid place-content-center h-screen">
+			<h1 className="text-xl md:text-2xl text-red-300">Hello Parcel - React (ts)</h1>
 		</div>
 	);
 };

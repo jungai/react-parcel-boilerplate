@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"source": "src/index.html",
 	"scripts": {
-		"dev": "parcel -p 4422",
+		"dev": "node parcel_dev.mjs",
 		"build": "parcel build",
 		"lint": "eslint . --ext js,ts,tsx"
 	},
@@ -24,6 +24,8 @@
 		"typescript": "^4.4.3"
 	},
 	"dependencies": {
+		"@parcel/config-default": "^2.0.0",
+		"@parcel/core": "^2.0.0",
 		"autoprefixer": "^10.3.7",
 		"postcss": "^8.3.9",
 		"react": "^17.0.2",

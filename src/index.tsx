@@ -1,7 +1,7 @@
 import React from 'react';
-import * as ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';
 
-import { App } from './App';
+import { Provider } from './Provider';
 
 const app = document.getElementById('app');
-ReactDOM.render(<App />, app);
+ReactDOM.render(<Provider />, app);

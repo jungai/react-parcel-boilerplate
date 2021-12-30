@@ -3,13 +3,16 @@
 	"version": "0.1.0",
 	"source": "src/index.html",
 	"scripts": {
-		"dev": "node parcel_dev.mjs",
+		"dev": "node configs/parcel_dev.mjs",
 		"build": "parcel build",
 		"lint": "eslint . --ext js,ts,tsx"
 	},
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
+		"@parcel/config-default": "^2.0.1",
+		"@parcel/core": "^2.0.1",
+		"@parcel/reporter-cli": "^2.0.1",
 		"@types/react": "^17.0.38",
 		"@types/react-dom": "^17.0.11",
 		"@typescript-eslint/eslint-plugin": "^5.8.1",
@@ -24,8 +27,6 @@
 		"typescript": "^4.5.4"
 	},
 	"dependencies": {
-		"@parcel/config-default": "^2.0.1",
-		"@parcel/core": "^2.0.1",
 		"autoprefixer": "^10.4.1",
 		"postcss": "^8.4.5",
 		"react": "^17.0.2",

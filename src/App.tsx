@@ -1,10 +1,10 @@
+import 'twin.macro';
 import React from 'react';
-import './style/tailwind.css';
 
 export const App = (): React.ReactElement => {
 	return (
-		<div className="grid place-content-center h-screen">
-			<h1 className="text-xl md:text-2xl text-[tomato]">Hello Parcel - React (ts)</h1>
+		<div tw="h-screen flex items-center justify-center text-red-400">
+			<h1>Hello Parcel With css-in-js</h1>
 		</div>
 	);
 };

@@ -4,9 +4,9 @@
 	"source": "src/index.html",
 	"scripts": {
 		"dev": "node configs/parcel_dev.mjs",
-		"build": "node configs/parcel_staging.mjs",
-		"preview": "http-server dist/",
-		"lint": "prettier --write . && eslint . --ext js,ts,tsx"
+		"lint": "prettier --write . && eslint . --ext js,ts,tsx",
+		"build": "pnpm lint && node configs/parcel_staging.mjs",
+		"preview": "http-server dist/"
 	},
 	"author": "",
 	"license": "ISC",

@@ -4,7 +4,7 @@
 	"source": "src/index.html",
 	"scripts": {
 		"dev": "node configs/parcel_dev.mjs",
-		"build": "parcel build",
+		"build": "node configs/parcel_staging.mjs",
 		"lint": "eslint . --ext js,ts,tsx"
 	},
 	"author": "",
@@ -27,6 +27,7 @@
 		"eslint-plugin-import": "^2.25.3",
 		"eslint-plugin-prettier": "^4.0.0",
 		"eslint-plugin-react": "^7.28.0",
+		"http-server": "^14.0.0",
 		"parcel": "^2.0.1",
 		"prettier": "^2.5.1",
 		"twin.macro": "^2.8.2",

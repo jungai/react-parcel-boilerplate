@@ -6,7 +6,7 @@
 		"dev": "node configs/parcel_dev.mjs",
 		"build": "node configs/parcel_staging.mjs",
 		"preview": "http-server dist/",
-		"lint": "eslint . --ext js,ts,tsx"
+		"lint": "prettier --write . && eslint . --ext js,ts,tsx"
 	},
 	"author": "",
 	"license": "ISC",

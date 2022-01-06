@@ -8,7 +8,7 @@
 		"build": "pnpm lint && node configs/parcel_staging.mjs",
 		"preview": "http-server dist/"
 	},
-	"author": "",
+	"author": "jungai",
 	"license": "ISC",
 	"devDependencies": {
 		"@babel/core": "^7.16.7",
